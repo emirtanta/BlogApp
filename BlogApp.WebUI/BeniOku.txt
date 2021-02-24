@@ -1,0 +1,36 @@
+﻿
+**Migrations
+
+Migration için WebUI katmanında nuget kısmına "Microsoft.EntityFrameworkCore.Tools.DotNet" kelimesini yazarak indir.
+
+* OpenFileExplorer kısmını aç ve klasör kısmına cmd yaz açılan komut satırı  kısmından komut satırı açılır ve dotnet ef migrations add InitialCreate komutu yazılır
+
+*Ardından dotnet ef database update komutu yazılır. Sonunda veritabanı oluşturulmuş olur.
+
+*Örnek datalar eklemek istediğimizde BlogApp.Data kısmındaki EfCore klasörüne SeedData isminde bir class oluşturarak örnek dataları yazabiliriz.(İsteğe bağlı)
+
+*class içerisine yeni bir data eklendiğinde ise proje üzerine sağ tıklanarak OpenFileExplorer ardından uzantı kısmına cmd yazıp alttak kod yazılmalıdır
+	
+	dotnet ef migrations add AddColumn(kolonAdı)
+
+**Repository
+
+	BlogApp.Data daki Abstract klasörünün içerisine ICategoryRepository ve IBlogRepository interfaceleri oluşturulur.
+
+	Concrete/EfCore kısmında EfCategoryRepository ve EfBlogRepository adlarında iki adet  sınıf oluşturularak Blog ve Category tablolarındaki ekle-sil-güncelle-listele işlemleri yaptırılır
+
+	Hazır eklenmeiş verilerin kullanıcı tarafında gözükmesi için WebUI kısmındaki Program.cs kısmındaki UseStartup uzantısına aşağıdaki kod parçacığı yazılır.
+
+	.UseDefaultServiceProvider(options => options.ValidateScopes = false);
+
+** Category Component
+
+	*Category Component oluşturmamızın sebebi bir çok kategoriyi dinamik halde sayfada rahatça göstermek ve düzenleme yapabilmek için tanımladık. Component yapısı Partial yapısı ile benzerlik gösterir.
+
+	*Shared klasörü içerisine CategoryMenu klasörü oluşturup bunun içerisine kategorilerimizi listeleyen bir partial view yapısı oluşturduk.
+
+	*Component'ler tekrar tekrar kullanılacak işlemlerde kullanılır
+
+	*Kategori componentini Index sayfasında gösterebilmek için aşağıdaki kod parçacığını yazdık
+
+		@await Component.InvokeAsync("CategoryMenu")

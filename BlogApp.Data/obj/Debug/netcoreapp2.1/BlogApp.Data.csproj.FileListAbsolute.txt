@@ -1,0 +1,16 @@
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\BlogApp.Data.deps.json
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\BlogApp.Data.dll
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.csprojAssemblyReference.cache
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.AssemblyInfoInputs.cache
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.AssemblyInfo.cs
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\BlogApp.Data.pdb
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\BlogApp.Entity.dll
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\BlogApp.Entity.pdb
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.csproj.CopyComplete
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.dll
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\obj\Debug\netcoreapp2.1\BlogApp.Data.pdb
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\emirt\source\repos\BlogApp\BlogApp.Data\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.Core.xml
